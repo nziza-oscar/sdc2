@@ -68,7 +68,7 @@ include 'header.php';
                 </div>
                 <div class="relative">
                     <div class="bg-primary-light rounded-[48px] p-8">
-                        <img src="https://placehold.co/600x700/0369a1/white?text=Architectural+Design" alt="Architectural Design" class="rounded-3xl w-full">
+                        <img src="images/7.jpg" alt="Architectural Design" class="rounded-3xl w-full">
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ include 'header.php';
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="order-2 lg:order-1">
                     <div class="bg-secondary-light rounded-[48px] p-8">
-                        <img src="https://placehold.co/600x700/0f766e/white?text=Construction+Management" alt="Construction Management" class="rounded-3xl w-full">
+                        <img src="images/5.jpg" alt="Construction Management" class="rounded-3xl w-full">
                     </div>
                 </div>
                 <div class="order-1 lg:order-2">
@@ -178,7 +178,7 @@ include 'header.php';
                 </div>
                 <div>
                     <div class="bg-primary-light rounded-[48px] p-8">
-                        <img src="https://placehold.co/600x700/0369a1/white?text=Renovation" alt="Renovation Services" class="rounded-3xl w-full">
+                        <img src="images/4.jpg" alt="Renovation Services" class="rounded-3xl w-full">
                     </div>
                 </div>
             </div>

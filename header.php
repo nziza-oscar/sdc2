@@ -75,7 +75,10 @@ require_once 'config/constants.php';
     <meta name="theme-color" content="#1a4d3e">
     <meta name="msapplication-TileColor" content="#1a4d3e">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
    
     <style>
         /* Custom styles */

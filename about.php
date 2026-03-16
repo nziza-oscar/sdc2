@@ -45,7 +45,7 @@ include 'header.php';
             </div>
             <div class="relative">
                 <div class="bg-primary-light rounded-[48px] p-8">
-                    <img src="https://placehold.co/600x700/0369a1/white?text=Our+Team" alt="Our Team" class="rounded-3xl w-full">
+                    <img src="images/6.jpg" alt="Our Team" class="rounded-3xl w-full">
                 </div>
                 <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-3xl shadow-xl">
                     <div class="flex items-center gap-4">
