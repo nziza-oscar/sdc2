@@ -1,6 +1,8 @@
 <?php
 $page_title = 'Contact';
 include 'header.php';
+displayBanner($page_title);
+
 ?>
 
 <!-- Contact Hero -->

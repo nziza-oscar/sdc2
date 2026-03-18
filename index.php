@@ -10,15 +10,16 @@ include 'header.php';
 </div>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <div class="hero-content">
+    <div class="grid lg:grid-cols-2 gap-5 items-center">
+        <div class="hero-content ">
             <span class="text-[#c95c0e] font-semibold tracking-wider uppercase text-sm mb-4 block">Welcome to SDC2</span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-white">
                 We help you<br>build your
                 <span class="text-[#c95c0e] block">dream professionally.</span>
             </h1>
-            <p class="text-lg text-gray-300 mb-8 max-w-lg leading-relaxed">
-                Sustainable Design and Construction Consultancy is an architectural firm in Kigali with a great passion for designing outstanding architecture and challenging the status quo.
+            <p class="text-lg text-gray-300 mb-8  leading-relaxed">
+                Sustainable Design and Construction Consultancy is an architectural firm in Kigali with
+                 a great passion for designing outstanding architecture and challenging the status.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="services.php" class="bg-[#c95c0e] text-white px-8 py-3 rounded-full font-semibold text-base hover:bg-[#b04d0c] transition-all duration-300 shadow-lg">Explore our Services</a>
@@ -26,8 +27,8 @@ include 'header.php';
             </div>
         </div>
         <div class="relative">
-            <div class="bg-[#c95c0e]/10 p-8 rounded-[48px] border border-[#c95c0e]/20">
-                <img src="images/1.jpg" alt="Sustainable Architecture" class="rounded-3xl w-full">
+            <div class=" p-8 ">
+                <img src="images/welcome.png" alt="Sustainable Architecture" class=" rounded-xl w-full">
             </div>
         </div>
     </div>
@@ -39,7 +40,7 @@ include 'header.php';
 <div class="grid lg:grid-cols-2 gap-16 items-center">
 <div class="relative">
 <div class="bg-[#1a4d3e]/10 rounded-[48px] p-8">
-<img src="images/3.jpg" alt="Construction Team" class="rounded-3xl w-full">
+<img src="images/about_us.png" alt="Construction Team" class="rounded-3xl w-full">
 </div>
 </div>
 <div class="about-content">

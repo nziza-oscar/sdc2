@@ -1,18 +1,16 @@
 <?php
 $page_title = 'About Us';
 include 'header.php';
+displayBanner($page_title);
 ?>
 
 <!-- About Hero Section -->
+
 <section class="relative py-20 bg-gradient-to-br from-primary-light/30 to-secondary-light/30">
-    <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute top-20 right-20 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-20 left-20 w-72 h-72 bg-secondary/5 rounded-full blur-3xl"></div>
-    </div>
+    
     
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div class="text-center max-w-4xl mx-auto">
-            <span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block">About Us</span>
             <h1 class="text-5xl md:text-6xl font-bold mb-6">We are one of the largest <span class="text-primary">construction companies</span> in Rwanda</h1>
             <p class="text-xl text-neutral-700 leading-relaxed">
                 Ever Design Group is a leading architectural and investment firm in Rwanda, known for its innovative design and strategic expansion into the hospitality sector.

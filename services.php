@@ -1,12 +1,14 @@
 <?php
 $page_title = 'Services';
 include 'header.php';
+displayBanner($page_title);
+
 ?>
 
 <!-- Services Hero -->
 <section class="relative py-20 bg-gradient-to-br from-primary-light/30 to-secondary-light/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block">Our Services</span>
+      
         <h1 class="text-5xl md:text-6xl font-bold mb-6">Providing <span class="text-primary">quality services</span> for every project</h1>
         <p class="text-xl text-neutral-700 max-w-3xl mx-auto">
             From concept to completion, we offer comprehensive construction and design solutions tailored to your needs.

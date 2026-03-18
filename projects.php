@@ -1,11 +1,13 @@
 <?php
 $page_title = 'Projects';
 include 'header.php';
+displayBanner($page_title);
+
 ?>
 
 <section class="relative py-20 bg-gradient-to-br from-primary-light/30 to-secondary-light/30">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block">Our Portfolio</span>
+
 <h1 class="text-4xl md:text-5xl font-bold mb-6">Featured <span class="text-primary">Projects</span></h1>
 <p class="text-lg text-neutral-700 max-w-3xl mx-auto">
 Able to do the right things at the right time. Explore our completed projects across Rwanda.

@@ -5,6 +5,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 // Include constants
 require_once 'config/constants.php';
+require_once "tools.php";
+
+// Determine current page for active link tracking
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +21,7 @@ require_once 'config/constants.php';
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -75,9 +79,11 @@ require_once 'config/constants.php';
     <meta name="theme-color" content="#1a4d3e">
     <meta name="msapplication-TileColor" content="#1a4d3e">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 
    
     <style>
@@ -141,6 +147,32 @@ require_once 'config/constants.php';
             transform: translateY(-2px);
             box-shadow: 0 10px 25px -5px rgba(201, 92, 14, 0.3);
         }
+        body {
+    color: var(--neutral-900);
+    background-color: white;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Active link style */
+.active-link {
+    color: #c95c0e !important;
+    position: relative;
+}
+
+.active-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #c95c0e;
+    border-radius: 2px;
+}
     </style>
 </head>
 <body class="antialiased">
@@ -182,13 +214,17 @@ require_once 'config/constants.php';
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center space-x-8">
-                <?php foreach($nav_items as $name => $link): ?>
+                <?php foreach($nav_items as $name => $link): 
+                    $is_active = ($current_page == $link) || 
+                                ($link == 'index.php' && $current_page == '') || 
+                                ($current_page == '' && $link == 'index.php');
+                ?>
                     <a href="<?php echo $link; ?>" 
-                       class="text-white hover:text-orange-200 font-medium transition-colors duration-200 <?php echo (basename($_SERVER['PHP_SELF']) == $link) ? 'text-orange-200' : ''; ?>">
+                       class="text-white hover:text-orange-200 font-medium transition-colors duration-200 <?php echo $is_active ? 'active-link' : ''; ?>">
                         <?php echo $name; ?>
                     </a>
                 <?php endforeach; ?>
-                <a href="contact.php" class="bg-[#c95c0e] text-white px-6 py-2 rounded-full font-medium hover:bg-[#b04d0c] transition-all duration-300">Get in Touch</a>
+                <a href="contact.php" class="bg-[#c95c0e] text-white px-6 py-2 rounded-full font-medium hover:bg-[#b04d0c] transition-all duration-300 <?php echo ($current_page == 'contact.php') ? 'ring-2 ring-white ring-offset-2 ring-offset-[#1a4d3e]' : ''; ?>">Get in Touch</a>
             </div>
             
             <!-- Mobile menu button -->
@@ -203,13 +239,17 @@ require_once 'config/constants.php';
     <!-- Mobile menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-[#1a4d3e] border-t border-[#c95c0e]/30">
         <div class="px-4 py-6 space-y-3">
-            <?php foreach($nav_items as $name => $link): ?>
+            <?php foreach($nav_items as $name => $link):
+                $is_active = ($current_page == $link) || 
+                            ($link == 'index.php' && $current_page == '') || 
+                            ($current_page == '' && $link == 'index.php');
+            ?>
                 <a href="<?php echo $link; ?>" 
-                   class="block text-white hover:text-orange-200 font-medium py-2">
+                   class="block text-white hover:text-orange-200 font-medium py-2 <?php echo $is_active ? 'active-link' : ''; ?>">
                     <?php echo $name; ?>
                 </a>
             <?php endforeach; ?>
-            <a href="contact.php" class="block bg-[#c95c0e] text-white text-center px-6 py-3 rounded-full font-medium mt-4 hover:bg-[#b04d0c] transition-all duration-300">Get in Touch</a>
+            <a href="contact.php" class="block bg-[#c95c0e] text-white text-center px-6 py-3 rounded-full font-medium mt-4 hover:bg-[#b04d0c] transition-all duration-300 <?php echo ($current_page == 'contact.php') ? 'ring-2 ring-white' : ''; ?>">Get in Touch</a>
         </div>
     </div>
 </nav>
