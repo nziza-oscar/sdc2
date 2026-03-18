@@ -5,11 +5,15 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 // Include constants
 require_once 'config/constants.php';
-require_once "tools.php";
 
-// Determine current page for active link tracking
-$current_page = basename($_SERVER['PHP_SELF']);
 ?>
+<?php
+// At the top of header.php after includes
+require_once 'includes/tracker.php';
+$current_page = basename($_SERVER['PHP_SELF']);
+trackPageView($current_page);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +21,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME; ?></title>
     <meta name="description" content="Sustainable Design & Construction Consultancy - Building dreams with sustainable innovation in Rwanda">
-    
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom CSS -->
