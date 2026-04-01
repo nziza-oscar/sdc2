@@ -1,11 +1,9 @@
 <footer class="bg-[#111827] text-gray-300 relative border-t border-gray-800">
-    <!-- Scroll to Top Button -->
     <button id="scrollToTop" class="fixed bottom-8 right-8 w-11 h-11 bg-[#c95c0e] rounded-full flex items-center justify-center text-white shadow-lg hover:bg-white hover:text-[#1a4d3e] transition-all duration-300 z-50 opacity-0 invisible cursor-pointer border-none">
         <i class="fa-solid fa-arrow-up text-lg"></i>
     </button>
     
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/250785140170" target="_blank" class="fixed bottom-8 right-24 w-11 h-11 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg hover:bg-white hover:text-[#25D366] transition-all duration-300 z-50 border-none">
+    <a href="https://wa.me/250788282953" target="_blank" class="fixed bottom-8 right-24 w-11 h-11 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg hover:bg-white hover:text-[#25D366] transition-all duration-300 z-50 border-none">
         <i class="fa-brands fa-whatsapp text-lg"></i>
     </a>
 
@@ -21,19 +19,19 @@
                     We transform ideas into architectural masterpieces with innovative design and quality construction. We prioritize sustainability and efficiency to create lasting, functional spaces.
                 </p>
                 <div class="flex space-x-3">
-                    <a href="#" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
+                    <a href="www.linkedin.com/in/sustainable-design-and-construction-consultancy-a7808b3ba" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
                         <i class="fa-brands fa-linkedin-in text-sm"></i>
                     </a>
-                    <a href="#" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
+                    <a href="https://x.com/Sdc2Connect" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
                         <i class="fa-brands fa-x-twitter text-sm"></i>
                     </a>
-                    <a href="#" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
+                    <a href="https://www.instagram.com/connect2sdc2/" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
                         <i class="fa-brands fa-instagram text-sm"></i>
                     </a>
-                    <a href="#" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
+                    <a href="https://www.facebook.com/profile.php?id=61576456765986" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
                         <i class="fa-brands fa-facebook-f text-sm"></i>
                     </a>
-                    <a href="https://wa.me/250785140170" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#25D366] hover:text-white transition-all">
+                    <a href="https://wa.me/250788282953" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#25D366] hover:text-white transition-all">
                         <i class="fa-brands fa-whatsapp text-sm"></i>
                     </a>
                 </div>
@@ -64,21 +62,20 @@
                     <li class="flex items-start space-x-3">
                         <i class="fa-regular fa-envelope text-[#c95c0e] mt-1"></i>
                         <div class="text-gray-400">
-                            <p>info@sustainableconstruct.com</p>
-                            <p>consultancy@sustainable.rw</p>
+                            <p>connect2sdc2@gmail.com</p>
                         </div>
                     </li>
                     <li class="flex items-start space-x-3">
                         <i class="fa-regular fa-building text-[#c95c0e] mt-1"></i>
-                        <p class="text-gray-400">Plot 37, Avenue, Kigali, Rwanda</p>
+                        <p class="text-gray-400">RWANDA-KIGALI-GASABO, Rubis Buriza Service Station</p>
                     </li>
                     <li class="flex items-start space-x-3">
-                        <i class="fa-regular fa-phone text-[#c95c0e] mt-1"></i>
-                        <p class="text-gray-400">(+250) 790 022 000 / 111</p>
+                        <i class="fa-solid fa-phone text-[#c95c0e] mt-1"></i>
+                        <p class="text-gray-400">+250 788 282 953</p>
                     </li>
                     <li class="flex items-start space-x-3">
                         <i class="fa-brands fa-whatsapp text-[#25D366] mt-1"></i>
-                        <a href="https://wa.me/250785140170" target="_blank" class="text-gray-400 hover:text-[#25D366] transition-colors">+250 785 140 170</a>
+                        <a href="https://wa.me/250788282953" target="_blank" class="text-gray-400 hover:text-[#25D366] transition-colors">+250 788 282 953</a>
                     </li>
                 </ul>
             </div>
