@@ -53,7 +53,7 @@ if (isset($_SESSION['message'])) {
 ?>
 
 <!-- Main Content -->
-<div class="flex-1 p-8 ml-64 overflow-y-auto" 
+<div class="flex-1 p-8  overflow-y-auto" 
      x-data="{ 
         mission: <?php echo json_encode($content['mission'] ?? ''); ?>,
         vision: <?php echo json_encode($content['vision'] ?? ''); ?>,
