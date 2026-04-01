@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if ($success) {
         $_SESSION['message'] = "About page updated successfully!";
-        header('Location: about.php');
+         echo "<script>window.location.href='about.php';</script>";
         exit;
     } else {
         $error = "Error updating content.";
