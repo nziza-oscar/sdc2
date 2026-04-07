@@ -11,15 +11,19 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             
             <div class="space-y-6">
-                <h3 class="text-lg font-bold tracking-tight text-white leading-tight">
-                    SUSTAINABLE DESIGN<br>
-                    <span class="text-xs font-medium text-gray-400 uppercase tracking-widest">& CONSTRUCTION CONSULTANCY</span>
-                </h3>
-                <p class="text-[14px] text-gray-400 leading-relaxed">
+                <div class="flex flex-col  gap-2">
+                    <img src="images/logo2.png" alt="SDC2 Logo" class="w-48  object-contain">
+                    <h3 class="text-lg font-bold tracking-tight text-white leading-tight">
+                        SUSTAINABLE DESIGN<br>
+                        <span class="text-xs font-medium text-gray-400 uppercase tracking-widest">& CONSTRUCTION CONSULTANCY</span>
+                    </h3>
+                </div>
+
+                <p class="text-[14px] text-gray-400 leading-relaxed font-rale">
                     We transform ideas into architectural masterpieces with innovative design and quality construction. We prioritize sustainability and efficiency to create lasting, functional spaces.
                 </p>
                 <div class="flex space-x-3">
-                    <a href="www.linkedin.com/in/sustainable-design-and-construction-consultancy-a7808b3ba" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
+                    <a href="https://www.linkedin.com/in/sustainable-design-and-construction-consultancy-a7808b3ba" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
                         <i class="fa-brands fa-linkedin-in text-sm"></i>
                     </a>
                     <a href="https://x.com/Sdc2Connect" target="_blank" class="w-9 h-9 bg-gray-800 rounded-full flex items-center justify-center text-gray-300 hover:bg-[#c95c0e] hover:text-white transition-all">
@@ -39,7 +43,7 @@
             
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-6">Our Services</h4>
-                <ul class="space-y-3 text-[14px]">
+                <ul class="space-y-3 text-[14px] font-rale">
                     <li><a href="services.php#architectural" class="hover:text-[#c95c0e] transition-colors">Architectural Design</a></li>
                     <li><a href="services.php#construction" class="hover:text-[#c95c0e] transition-colors">Construction Management</a></li>
                     <li><a href="services.php#renovation" class="hover:text-[#c95c0e] transition-colors">Renovation and Remodeling</a></li>
@@ -49,7 +53,7 @@
             
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-6">Useful links</h4>
-                <ul class="space-y-3 text-[14px]">
+                <ul class="space-y-3 text-[14px] font-rale">
                     <?php foreach($nav_items as $name => $link): ?>
                         <li><a href="<?php echo $link; ?>" class="hover:text-[#c95c0e] transition-colors"><?php echo $name; ?></a></li>
                     <?php endforeach; ?>
@@ -58,7 +62,7 @@
             
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-wider text-white mb-6">Contact Us</h4>
-                <ul class="space-y-4 text-[14px]">
+                <ul class="space-y-4 text-[14px] font-rale">
                     <li class="flex items-start space-x-3">
                         <i class="fa-regular fa-envelope text-[#c95c0e] mt-1"></i>
                         <div class="text-gray-400">
@@ -81,7 +85,7 @@
             </div>
         </div>
         
-        <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center font-rale">
             <p class="text-gray-500 text-xs">© Copyright 2026 Sustainable Design & Construction Consultancy. All rights reserved.</p>
             <div class="flex space-x-6 mt-4 md:mt-0">
                 <a href="privacy.php" class="text-xs text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
