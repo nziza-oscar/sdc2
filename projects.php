@@ -5,169 +5,183 @@ displayBanner($page_title);
 ?>
 
 <section class="relative py-20 bg-gradient-to-br from-primary-light/30 to-secondary-light/30">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 class="text-5xl md:text-6xl mb-6 font-poppi">Featured <span class="text-primary">Projects</span></h1>
-<p class="text-xl text-neutral-700 max-w-3xl mx-auto font-rale">
-Able to do the right things at the right time. Explore our portfolio of completed works across Rwanda.
-</p>
-</div>
-</section>
-
-<section class="py-8 sticky top-0 bg-white/80 backdrop-blur-md z-30 border-b border-neutral-100">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex flex-wrap justify-center gap-3">
-<button class="filter-btn active px-6 py-2.5 rounded-xl bg-primary text-white text-sm font-medium font-poppi transition-all shadow-sm" data-filter="all">All Projects</button>
-<button class="filter-btn px-6 py-2.5 rounded-xl bg-neutral-50 text-neutral-600 text-sm font-medium font-poppi hover:bg-primary-light transition-all" data-filter="commercial">Commercial</button>
-<button class="filter-btn px-6 py-2.5 rounded-xl bg-neutral-50 text-neutral-600 text-sm font-medium font-poppi hover:bg-primary-light transition-all" data-filter="industrial">Industrial</button>
-<button class="filter-btn px-6 py-2.5 rounded-xl bg-neutral-50 text-neutral-600 text-sm font-medium font-poppi hover:bg-primary-light transition-all" data-filter="architecture">Architecture</button>
-<button class="filter-btn px-6 py-2.5 rounded-xl bg-neutral-50 text-neutral-600 text-sm font-medium font-poppi hover:bg-primary-light transition-all" data-filter="plumbing">Plumbing</button>
-<button class="filter-btn px-6 py-2.5 rounded-xl bg-neutral-50 text-neutral-600 text-sm font-medium font-poppi hover:bg-primary-light transition-all" data-filter="interior">Interior</button>
-</div>
-</div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-6xl mb-6 font-poppi">Our <span class="text-primary">Gallery</span></h1>
+        <p class="text-xl text-neutral-700 max-w-3xl mx-auto font-rale">
+            Explore our portfolio of completed works across Rwanda.
+        </p>
+    </div>
 </section>
 
 <section class="py-16 md:py-24">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10" id="projects-grid">
-
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="commercial">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/1.jpg" alt="Advertise Windows" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 " id="gallery-grid">
+            <?php
+            // Generate gallery items from sdc2-1.jpeg to sdc2-20.jpeg
+            for ($i = 1; $i <= 20; $i++):
+                $imagePath = "images/projects/sdc2-{$i}.jpeg";
+                // Check if file exists, if not use placeholder
+                if (!file_exists($imagePath)) {
+                    continue;
+                }
+            ?>
+            <div class="gallery-item cursor-pointer overflow-hidden shadow-md  transition-all duration-300 group">
+                <div class="aspect-square overflow-hidden">
+                    <img src="<?php echo $imagePath; ?>" alt="SDC2 Project <?php echo $i; ?>"
+                     class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                </div>
             </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Commercial</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Advertise Windows</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Modern office space window installations with thermal efficiency.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Commercial</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Advertise Windows</h3>
-            </div>
+            <?php endfor; ?>
         </div>
+    </div>
+</section>
 
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="residential">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/2.jpg" alt="Eco Villa" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Residential</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Eco Villa Kigali</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Sustainable luxury villa featuring full solar integration.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Residential</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Eco Villa Kigali</h3>
-            </div>
-        </div>
-
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="industrial">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/3.jpg" alt="Industrial Park" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Industrial</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Green Industrial Park</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Eco-friendly manufacturing facility with advanced waste management.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Industrial</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Green Industrial Park</h3>
-            </div>
-        </div>
-
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="architecture">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/4.jpg" alt="Modern Office" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Architecture</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Riverside Tower</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Contemporary office design with natural ventilation systems.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Architecture</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Riverside Tower</h3>
-            </div>
-        </div>
-
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="plumbing">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/5.jpg" alt="Smart Water" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Plumbing</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Smart Water System</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Intelligent water management for high-rise commercial complexes.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Plumbing</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Smart Water System</h3>
-            </div>
-        </div>
-
-        <div class="project-item group relative overflow-hidden rounded-[40px] bg-white shadow-sm hover:shadow-xl transition-all duration-500" data-category="interior">
-            <div class="aspect-[4/5] overflow-hidden">
-                <img src="images/6.jpg" alt="Luxury Interior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span class="text-primary-light text-xs font-bold uppercase tracking-widest mb-2 font-poppi">Interior</span>
-                <h3 class="text-2xl text-white font-semibold mb-3 font-poppi">Luxury Interiors</h3>
-                <p class="text-neutral-200 text-sm font-rale mb-4">Minimalist aesthetic using sustainable local materials.</p>
-                <a href="#" class="text-white text-sm font-semibold font-poppi flex items-center gap-2">View Case Study <i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-            <div class="p-6 group-hover:hidden transition-all">
-                <span class="text-xs text-primary font-bold uppercase tracking-wider font-poppi">Interior</span>
-                <h3 class="text-xl font-semibold mt-2 font-poppi text-neutral-800">Luxury Interiors</h3>
+<!-- Lightbox Modal -->
+<div id="lightbox-modal" class="fixed inset-0 bg-black/95 z-50 hidden items-center justify-center opacity-0 transition-opacity duration-300">
+    <div class="relative w-full h-full flex items-center justify-center">
+        <!-- Close button -->
+        <button id="close-modal" class="absolute top-5 right-5 text-white text-4xl hover:text-primary transition-colors z-20">
+            <i class="fa-solid fa-times"></i>
+        </button>
+        
+        <!-- Prev button -->
+        <button id="prev-slide" class="absolute left-5 md:left-10 text-white text-3xl md:text-5xl hover:text-primary transition-colors z-20 bg-black/50 w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center backdrop-blur-sm">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        
+        <!-- Next button -->
+        <button id="next-slide" class="absolute right-5 md:right-10 text-white text-3xl md:text-5xl hover:text-primary transition-colors z-20 bg-black/50 w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center backdrop-blur-sm">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        
+        <!-- Image container -->
+        <div class="relative max-w-7xl max-h-full p-4 md:p-8">
+            <img id="modal-image" src="" alt="Gallery Image" class="max-h-[90vh] w-auto object-contain mx-auto rounded-lg shadow-2xl">
+            
+            <!-- Counter -->
+            <div id="image-counter" class="absolute bottom-5 left-1/2 transform -translate-x-1/2 text-white text-sm font-poppi bg-black/50 px-4 py-2 rounded-full backdrop-blur-sm">
+                1 / 20
             </div>
         </div>
     </div>
 </div>
-</section>
-
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-const filterBtns = document.querySelectorAll('.filter-btn');
-const projectItems = document.querySelectorAll('.project-item');
-
-filterBtns.forEach(btn =&gt; {
-    btn.addEventListener(&#39;click&#39;, () =&gt; {
-        // Update active button state
-        filterBtns.forEach(b =&gt; {
-            b.classList.remove(&#39;bg-primary&#39;, &#39;text-white&#39;, &#39;shadow-sm&#39;);
-            b.classList.add(&#39;bg-neutral-50&#39;, &#39;text-neutral-600&#39;);
-        });
-        btn.classList.remove(&#39;bg-neutral-50&#39;, &#39;text-neutral-600&#39;);
-        btn.classList.add(&#39;bg-primary&#39;, &#39;text-white&#39;, &#39;shadow-sm&#39;);
-        
-        // Filter animation logic
-        const filter = btn.dataset.filter;
-        
-        projectItems.forEach(item =&gt; {
-            item.style.opacity = &#39;0&#39;;
-            item.style.transform = &#39;scale(0.95)&#39;;
-            
-            setTimeout(() =&gt; {
-                if (filter === &#39;all&#39; || item.dataset.category === filter) {
-                    item.style.display = &#39;block&#39;;
-                    setTimeout(() =&gt; {
-                        item.style.opacity = &#39;1&#39;;
-                        item.style.transform = &#39;scale(1)&#39;;
-                    }, 50);
-                } else {
-                    item.style.display = &#39;none&#39;;
-                }
-            }, 300);
+    // Get all gallery images
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const images = [];
+    
+    // Collect all image paths
+    galleryItems.forEach(item => {
+        const img = item.querySelector('img');
+        if (img) {
+            images.push(img.src);
+        }
+    });
+    
+    let currentIndex = 0;
+    const modal = document.getElementById('lightbox-modal');
+    const modalImage = document.getElementById('modal-image');
+    const closeModal = document.getElementById('close-modal');
+    const prevSlide = document.getElementById('prev-slide');
+    const nextSlide = document.getElementById('next-slide');
+    const imageCounter = document.getElementById('image-counter');
+    
+    // Open modal function
+    function openModal(index) {
+        currentIndex = index;
+        modalImage.src = images[currentIndex];
+        updateCounter();
+        modal.classList.remove('hidden');
+        setTimeout(() => {
+            modal.classList.add('opacity-100');
+        }, 10);
+        document.body.style.overflow = 'hidden';
+    }
+    
+    // Close modal function
+    function closeModalFunc() {
+        modal.classList.remove('opacity-100');
+        setTimeout(() => {
+            modal.classList.add('hidden');
+        }, 300);
+        document.body.style.overflow = '';
+    }
+    
+    // Next slide function
+    function nextSlideFunc() {
+        currentIndex = (currentIndex + 1) % images.length;
+        modalImage.src = images[currentIndex];
+        updateCounter();
+    }
+    
+    // Prev slide function
+    function prevSlideFunc() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        modalImage.src = images[currentIndex];
+        updateCounter();
+    }
+    
+    // Update counter display
+    function updateCounter() {
+        imageCounter.textContent = `${currentIndex + 1} / ${images.length}`;
+    }
+    
+    // Add click event to each gallery item
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            openModal(index);
         });
     });
-});
+    
+    // Modal controls
+    closeModal.addEventListener('click', closeModalFunc);
+    nextSlide.addEventListener('click', nextSlideFunc);
+    prevSlide.addEventListener('click', prevSlideFunc);
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (!modal.classList.contains('hidden')) {
+            if (e.key === 'Escape') {
+                closeModalFunc();
+            } else if (e.key === 'ArrowRight') {
+                nextSlideFunc();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlideFunc();
+            }
+        }
+    });
+    
+    // Close modal when clicking on background
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModalFunc();
+        }
+    });
 });
 </script>
+
+<style>
+/* Additional gallery styling */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.3) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.gallery-item:hover::after {
+    opacity: 1;
+}
+</style>
 
 <?php include 'footer.php'; ?>
