@@ -6,7 +6,7 @@ displayBanner($page_title);
 
 <section class="relative py-20 bg-gradient-to-br from-primary-light/30 to-secondary-light/30">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 class="text-5xl md:text-6xl mb-6 font-poppi">Providing <span class="text-primary">quality services</span> for every project</h1>
+<h1 class="text-5xl md:text-4xl mb-6 font-poppi">Providing <span class="text-primary">quality services</span> for every project</h1>
 <p class="text-xl text-neutral-700 max-w-3xl mx-auto font-rale">
 From concept to completion, we offer comprehensive construction and design solutions tailored to your needs.
 </p>
@@ -65,7 +65,7 @@ Our architectural design service brings your vision to life with innovative, sus
 </div>
 <div class="relative">
 <div class="bg-primary-light rounded-[48px] p-8">
-<img src="images/7.jpg" alt="Architectural Design" class="rounded-3xl w-full">
+<img src="images/house.png" alt="Architectural Design" class="rounded-3xl w-full">
 </div>
 </div>
 </div>
@@ -73,7 +73,7 @@ Our architectural design service brings your vision to life with innovative, sus
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div class="order-2 lg:order-1">
                 <div class="bg-secondary-light rounded-[48px] p-8">
-                    <img src="images/5.jpg" alt="Construction Management" class="rounded-3xl w-full">
+                    <img src="images/under_contruction.png" alt="Construction Management" class="rounded-3xl w-full">
                 </div>
             </div>
             <div class="order-1 lg:order-2">
@@ -173,7 +173,7 @@ Our architectural design service brings your vision to life with innovative, sus
             </div>
             <div>
                 <div class="bg-primary-light rounded-[48px] p-8">
-                    <img src="images/4.jpg" alt="Renovation Services" class="rounded-3xl w-full">
+                    <img src="images/hospital.png" alt="Renovation Services" class="rounded-3xl w-full">
                 </div>
             </div>
         </div>
@@ -181,39 +181,41 @@ Our architectural design service brings your vision to life with innovative, sus
 </div>
 </section>
 
-<section class="section-padding bg-neutral-50">
+<section class="section-padding banner-bg">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center max-w-3xl mx-auto mb-16">
-<span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block font-poppi">Our Process</span>
-<h2 class="section-title font-poppi">How we bring your project to life</h2>
-</div>
+    <div class="bg-white/40 backdrop-blur-md border border-white/20 rounded-[40px] p-8 md:p-16 shadow-xl">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block font-poppi">Our Process</span>
+            <h2 class="section-title font-poppi">How we bring your project to life</h2>
+        </div>
 
-    <div class="grid md:grid-cols-4 gap-6">
-        <div class="text-center relative">
-            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 font-poppi">1</div>
-            <h3 class="font-semibold text-lg mb-2 font-poppi">Consultation</h3>
-            <p class="text-neutral-600 font-rale">We discuss your vision, needs, and budget</p>
-            <div class="hidden md:block absolute top-8 left-[60%] w-full h-0.5 bg-primary/20"></div>
-        </div>
-        
-        <div class="text-center relative">
-            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 font-poppi">2</div>
-            <h3 class="font-semibold text-lg mb-2 font-poppi">Design</h3>
-            <p class="text-neutral-600 font-rale">Creating detailed plans and 3D visualizations</p>
-            <div class="hidden md:block absolute top-8 left-[60%] w-full h-0.5 bg-primary/20"></div>
-        </div>
-        
-        <div class="text-center relative">
-            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 font-poppi">3</div>
-            <h3 class="font-semibold text-lg mb-2 font-poppi">Planning</h3>
-            <p class="text-neutral-600 font-rale">Budgeting, scheduling, and permits</p>
-            <div class="hidden md:block absolute top-8 left-[60%] w-full h-0.5 bg-primary/20"></div>
-        </div>
-        
-        <div class="text-center">
-            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4 font-poppi">4</div>
-            <h3 class="font-semibold text-lg mb-2 font-poppi">Construction</h3>
-            <p class="text-neutral-600 font-rale">Building with quality and precision</p>
+        <div class="grid md:grid-cols-4 gap-12 md:gap-6">
+            <div class="text-center relative">
+                <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">1</div>
+                <h3 class="font-semibold text-lg mb-2 font-poppi">Consultation</h3>
+                <p class="text-slate-800 font-rale font-semibold">We discuss your vision, needs, and budget</p>
+                <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+            </div>
+            
+            <div class="text-center relative">
+                <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">2</div>
+                <h3 class="font-semibold text-lg mb-2 font-poppi">Design</h3>
+                <p class="text-slate-800 font-rale font-semibold">Creating detailed plans and 3D visualizations</p>
+                <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+            </div>
+            
+            <div class="text-center relative">
+                <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">3</div>
+                <h3 class="font-semibold text-lg mb-2 font-poppi">Planning</h3>
+                <p class="text-slate-800 font-rale font-semibold">Budgeting, scheduling, and permits</p>
+                <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+            </div>
+            
+            <div class="text-center">
+                <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">4</div>
+                <h3 class="font-semibold text-lg mb-2 font-poppi">Construction</h3>
+                <p class="text-slate-800 font-rale font-semibold">Building with quality and precision</p>
+            </div>
         </div>
     </div>
 </div>
