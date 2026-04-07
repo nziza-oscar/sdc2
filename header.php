@@ -20,7 +20,15 @@ trackPageView($current_page);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME; ?></title>
-    <meta name="description" content="Sustainable Design & Construction Consultancy - Building dreams with sustainable innovation in Rwanda">
+    
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <meta name="description" content="Sustainable Design & Construction Consultancy - Building dreams with sustainable innovation in Rwanda.">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -29,7 +37,6 @@ trackPageView($current_page);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <meta name="title" content="<?php echo isset($page_title) ? $page_title . ' - SDC2' : 'SDC2 - Sustainable Design & Construction Consultancy'; ?>">
-    <meta name="description" content="SDC2 is a leading sustainable design and construction consultancy in Rwanda. We offer architectural design, construction management, and eco-friendly building solutions in Kigali and East Africa.">
     <meta name="keywords" content="sustainable design, construction consultancy, architectural firm Kigali, green building Rwanda, construction management, eco-friendly architecture, SDC2, sustainable construction East Africa, building consultants Rwanda">
     <meta name="author" content="SDC2 - Sustainable Design and Construction Consultancy">
     <meta name="robots" content="index, follow">
@@ -58,20 +65,18 @@ trackPageView($current_page);
     <meta name="twitter:creator" content="@SDC2_Rwanda">
     
     <meta property="linkedin:owner" content="sdc2-sustainable-design-construction">
-    
     <meta property="og:whatsapp:image" content="https://sdc2consultancy.com/images/whatsapp-share.jpg">
     
     <link rel="canonical" href="https://sdc2consultancy.com/<?php echo basename($_SERVER['PHP_SELF']); ?>">
     
     <meta name="theme-color" content="#1a4d3e">
     <meta name="msapplication-TileColor" content="#1a4d3e">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="favicon/web-app-manifest-192x192.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style>
-        /* Your original custom styles exactly as they were */
         .soft-shadow { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); }
         .hover-lift { transition: transform 0.2s ease, box-shadow 0.2s ease; }
         .hover-lift:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -15px rgba(0, 77, 64, 0.15); }
@@ -107,7 +112,6 @@ trackPageView($current_page);
             line-height: 1.5;
             font-weight: 400;
             font-style: normal;
-            font-optical-sizing: auto;
         }
 
         .active-link {
@@ -179,7 +183,7 @@ trackPageView($current_page);
                          alt="SDC2 consultancy - Sustainable Construction and Development" 
                          width="250" 
                          height="100" 
-                         class="block h-24 w-auto max-w-full"/>
+                         class="block h-32 w-auto max-w-full"/>
                 </a>
             </div>
             
