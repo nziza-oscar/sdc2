@@ -136,9 +136,22 @@ trackPageView($current_page);
          .font-poppi{
             font-family: "Poppins", sans-serif;
          }
+          .hero {
+            background: linear-gradient(rgba(30, 55, 35, 0.82), rgba(20, 45, 25, 0.81)), 
+                        url('images/projects/sdc2-7.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            /* padding: 100px 0 120px; */
+            color: white;
+          
+        }
     </style>
+    <link rel="css" href="css/style.css" type="text/css">
 </head>
 <body class="antialiased">
+
+<!-- header.php -->
 <div class="fixed top-0 left-0 w-full bg-[#c95c0e] py-2 z-50 border-b border-orange-700/30 font-rale text-sm text-white text-center">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-wrap justify-between items-center text-sm">
