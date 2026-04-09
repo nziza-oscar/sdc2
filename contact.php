@@ -111,7 +111,7 @@ displayBanner($page_title);
                 
                 <!-- Physical Location Image -->
                 <div id="view-photo" class="absolute inset-0 transition-opacity duration-500 opacity-0 z-0">
-                    <img src="images/location.jpg" alt="SDC2 Physical Location" class="w-full h-full object-contain">
+                    <img src="images/location.jpeg" alt="SDC2 Physical Location" class="w-full h-full object-contain">
                     <div class="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg">
                         <p class="text-xs font-poppi text-teal-800 font-semibold uppercase tracking-wider mb-1">Our Premises</p>
                         <p class="text-sm text-gray-600 font-rale">Visit us at the Rubis Buriza Service Station building.</p>
