@@ -20,7 +20,7 @@ include 'header.php';
         <div class="grid lg:grid-cols-2 gap-24 items-start">
             <div class="space-y-8">
                 <div>
-                    <span class="text-[#c95c0e] font-extrabold uppercase tracking-[0.3em] text-sm block mb-4">Chronicle</span>
+                    <span class="text-[#c95c0e] font-extrabold uppercase tracking-[0.3em] text-sm block mb-4">about us</span>
                     <h2 class="text-4xl md:text-5xl font-extrabold text-[#0a2d4d]">Our Story</h2>
                 </div>
                 
