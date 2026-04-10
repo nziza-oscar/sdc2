@@ -37,10 +37,13 @@ include 'header.php';
                 <div class="w-full aspect-[4/5] bg-slate-100 overflow-hidden shadow-2xl" style="clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 10%);">
                     <img src="images/projects/sdc2-7.jpeg" alt="Structural Excellence" class="w-full h-full object-cover">
                 </div>
-                <div class="absolute -bottom-10 -left-10 bg-[#0a2d4d] p-12 shadow-2xl text-white hidden md:block">
-                    <p class="text-4xl font-extrabold mb-1">SDC2</p>
-                    <p class="text-emerald-400 font-bold text-xs uppercase tracking-widest">Design & Construction</p>
-                </div>
+              <div class="absolute -bottom-10 -left-10 bg-[#0a2d4d] p-12 pr-20 shadow-2xl text-white hidden md:block" 
+                style="clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);">
+                <p class="text-4xl font-extrabold mb-1">SDC2</p>
+                <p class="text-emerald-400 font-bold text-xs uppercase tracking-widest">
+                    Sustainable Design & Construction Consultancy
+                </p>
+            </div>
             </div>
         </div>
     </div>
