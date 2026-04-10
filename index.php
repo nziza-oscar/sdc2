@@ -8,24 +8,31 @@
         <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-8 mx-auto max-w-7xl items-center">
             
             <div class="space-y-8 text-center md:text-left">
-                <h2 class="reveal-up text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight">
-                    Sustainable Design and <br class="hidden md:block"> Construction Consultancy
+                <span class="inline-block px-4 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-poppi uppercase tracking-widest mb-4 border border-emerald-500/20">
+                    Welcome to SDC2
+                </span>
+                <h2 class="reveal-up text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight ">
+                    Sustainable Design and <br/> <span class="text-emerald-400 whitespace-nowrap">Construction Consultancy</span>
                 </h2>
-                <p class="reveal-up max-w-xl mx-auto md:mx-0 text-base md:text-lg leading-relaxed opacity-80">
+                <p class="reveal-up max-w-xl mx-auto md:mx-0 text-sm leading-relaxed opacity-80">
                     At Sustainable Design and Construction Consultancy, we turn ideas into resilient, efficient, and future-ready structures. We are committed to delivering innovative engineering and design solutions that balance functionality, cost-effectiveness, and environmental responsibility.
                 </p>
+
+                 <p class="reveal-up max-w-xl mx-auto md:mx-0 text-sm leading-relaxed opacity-80">
+                  From concept to completion, we bring cutting-edge engineering, smart design strategies, and sustainable practices together to deliver results that exceed expectations.
+                </p>
+
                 <div class="reveal-up flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                    <button class="px-8 py-4 bg-green-400 text-cyan-900 rounded-full font-bold shadow-xl hover:bg-green-300 transition-all">Explore Projects</button>
-                    <button class="px-8 py-4 border-2 border-white rounded-full font-bold hover:bg-white hover:text-cyan-900 transition-all">Learn More</button>
+                    <a href="projects.php" class="px-8 py-4 bg-green-400 text-cyan-900 rounded-full font-bold shadow-xl hover:bg-green-300 transition-all">Explore Projects</a>
                 </div>
             </div>
 
             <div class="hidden md:flex relative justify-center">
-                <div class="absolute -top-12 -left-12 grid grid-cols-4 gap-4 opacity-30">
-                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
-                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
-                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
-                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                <div class="absolute -top-2 -left-12 grid grid-cols-4 gap-4 opacity-30">
+                    <div class="w-2 h-2 bg-white rounded-full reveal-up"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full reveal-up"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full reveal-up"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full reveal-up"></div><div class="w-2 h-2 bg-white rounded-full"></div>
                 </div>
 
                 <div id="hero-img-box" class="hex-shape w-full aspect-square max-w-md bg-transparent overflow-hidden border-[12px] border-white/10 shadow-2xl">
