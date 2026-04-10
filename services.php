@@ -3,7 +3,6 @@ $page_title = 'Services';
 include 'header.php';
 ?>
 
-<!-- Hero Banner -->
 <section class="relative py-16 flex items-center bg-[#0a2d4d] text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');"></div>
     <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-400/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
@@ -20,11 +19,10 @@ include 'header.php';
     </div>
 </section>
 
-<section class="section-padding">
+<section class="section-padding py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="space-y-20">
-            <!-- Service 1: Architectural Design -->
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div id="architectural" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div>
                     <div class="w-20 h-20 bg-primary-light rounded-2xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-ruler text-4xl text-primary"></i>
@@ -78,8 +76,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Service 2: Construction Management -->
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div id="construction" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div class="order-2 lg:order-1">
                     <div class="bg-secondary-light rounded-[48px] p-8">
                         <img src="images/under_contruction.png" alt="Construction Management" class="rounded-3xl w-full">
@@ -133,8 +130,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Service 3: Project Advisory, Cost & Performance Control -->
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div id="project" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div>
                     <div class="w-20 h-20 bg-emerald-100 rounded-2xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-chart-line text-4xl text-emerald-600"></i>
@@ -215,8 +211,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <!-- Service 4: Renovation & Retrofitting -->
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div id="renovation" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div class="order-2 lg:order-1">
                     <div class="bg-primary-light rounded-[48px] p-8">
                         <img src="images/hospital.png" alt="Renovation Services" class="rounded-3xl w-full">
@@ -273,8 +268,7 @@ include 'header.php';
     </div>
 </section>
 
-<!-- Process Section -->
-<section class="section-padding banner-bg">
+<section id="process" class="section-padding banner-bg scroll-mt-24 py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-white/40 backdrop-blur-md border border-white/20 rounded-[40px] p-8 md:p-16 shadow-xl">
             <div class="text-center max-w-3xl mx-auto mb-16">
