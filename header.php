@@ -167,7 +167,7 @@ trackPageView($current_page);
                 <a href="index.php" class="inline-block transition-transform hover:scale-105">
                     <img src="images/logo2.png" 
                          alt="SDC2 consultancy - Sustainable Construction and Development" 
-                         class="block h-12 md:h-16 w-auto max-w-full"/>
+                         class="block h-12 md:h-20 w-auto max-w-full"/>
                 </a>
 
                 <div class="hidden lg:flex items-center space-x-8 text-sm font-medium">
@@ -180,9 +180,9 @@ trackPageView($current_page);
                 </div>
 
                 <div class="flex items-center gap-4">
-                    <button class="hidden sm:block px-6 py-2 bg-green-400 text-cyan-900 rounded-full text-sm font-bold shadow-lg hover:bg-green-300 transition-all active:scale-95">
+                    <a href="contact.php" class="hidden sm:block px-6 py-2 bg-green-400 text-cyan-900 rounded-full text-sm font-bold shadow-lg hover:bg-green-300 transition-all active:scale-95">
                         Get In Touch
-                    </button>
+                    </a>
                     <button id="menu-open" class="lg:hidden text-2xl focus:outline-none">
                         <i class="fa-solid fa-bars"></i>
                     </button>
