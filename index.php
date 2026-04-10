@@ -1,194 +1,125 @@
 <?php
-$page_title = 'Home';
-include 'header.php';
+ require_once 'header.php';
 ?>
 
-<section class="relative min-h-[90vh] flex items-center banner-bg">
-    <div class="absolute inset-0 overflow-hidden">
-        <div class="absolute -top-40 -right-40 w-80 h-80 bg-[#c95c0e]/10 rounded-full blur-3xl"></div>
-        <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-[#c95c0e]/5 rounded-full blur-3xl"></div>
-    </div>
+    <section class="relative min-h-[90vh] flex items-center overflow-hidden hero-gradient text-white pt-10 pb-20">
+        <div class="hidden md:block absolute bottom-0 right-0 w-1/3 h-full accent-bg" style="clip-path: polygon(100% 0, 0% 100%, 100% 100%);"></div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
-        <div class="grid lg:grid-cols-2 gap-5 items-center">
-            <div class="hero-content">
-                <span class="text-[#c95c0e] font-poppi font-semibold tracking-wider uppercase text-sm mb-4 block">Welcome to SDC2</span>
-                <h1 class="text-2xl md:text-5xl lg:text-6xl font-poppi leading-tight mb-6 text-white font-bold">
-                    Welcome to <span class="text-[#c95c0e]">Sustainable Design<br>and Construction Consultancy</span>
-                    
-                </h1>
-
-                <p class="text-lg text-gray-100 mb-6 font-rale leading-relaxed font-medium" style="text-shadow: 0 1px 3px rgb(0 0 0 / 50%), 0 2px 6px rgb(0 0 0 / 30%);">
+        <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-8 mx-auto max-w-7xl items-center">
+            
+            <div class="space-y-8 text-center md:text-left">
+                <h2 class="reveal-up text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight">
+                    Sustainable Design and <br class="hidden md:block"> Construction Consultancy
+                </h2>
+                <p class="reveal-up max-w-xl mx-auto md:mx-0 text-base md:text-lg leading-relaxed opacity-80">
                     At Sustainable Design and Construction Consultancy, we turn ideas into resilient, efficient, and future-ready structures. We are committed to delivering innovative engineering and design solutions that balance functionality, cost-effectiveness, and environmental responsibility.
                 </p>
-                <p class="text-lg text-gray-100 mb-6 font-rale leading-relaxed font-medium" style="text-shadow: 0 1px 3px rgb(0 0 0 / 50%), 0 2px 6px rgb(0 0 0 / 30%);">
+                <div class="reveal-up flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <button class="px-8 py-4 bg-green-400 text-cyan-900 rounded-full font-bold shadow-xl hover:bg-green-300 transition-all">Explore Projects</button>
+                    <button class="px-8 py-4 border-2 border-white rounded-full font-bold hover:bg-white hover:text-cyan-900 transition-all">Learn More</button>
+                </div>
+            </div>
+
+            <div class="hidden md:flex relative justify-center">
+                <div class="absolute -top-12 -left-12 grid grid-cols-4 gap-4 opacity-30">
+                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                    <div class="w-2 h-2 bg-white rounded-full"></div><div class="w-2 h-2 bg-white rounded-full"></div>
+                </div>
+
+                <div id="hero-img-box" class="hex-shape w-full aspect-square max-w-md bg-transparent overflow-hidden border-[12px] border-white/10 shadow-2xl">
+                    <img src="images/projects/sdc2-7.jpeg" alt="Sustainable Construction Project" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 md:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <div class="relative order-2 lg:order-1 flex justify-center lg:justify-start">
+                <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-green-100 rounded-full -z-10 opacity-60"></div>
+                <div class="absolute -top-10 left-10 text-orange-500/10 scale-150 -z-10">
+                    <i class="fa-solid fa-quote-left text-9xl"></i>
+                </div>
+
+                <div class="about-image-wrapper relative w-full max-w-md aspect-square">
+                    <svg width="0" height="0" style="position: absolute;">
+                        <defs>
+                            <mask id="rounded-hex" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+                                <path d="M0.5,0 L0.9,0.25 L0.9,0.75 L0.5,1 L0.1,0.75 L0.1,0.25 Z" fill="white" />
+                            </mask>
+                        </defs>
+                    </svg>
+                    
+                    <div class="w-full h-full overflow-hidden"
+                     style="clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%); border-radius: 2rem;">
+                        <img src="images/projects/sdc2-8.jpeg" 
+                             alt="Engineers at work" 
+                             class="w-full h-full object-cover reveal-up rounded-xl"/>
+                    </div>
+
+                    <div class="absolute -bottom-4 -right-4 bg-[#c95c0e] text-white p-6 rounded-2xl shadow-2xl reveal-up">
+                        <span class="block text-4xl font-extrabold">10+</span>
+                        <span class="text-xs uppercase tracking-widest font-semibold opacity-80">Years of<br>Excellence</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-8 order-1 lg:order-2">
+                <div class="reveal-up">
+                    <span class="text-[#c95c0e] font-bold tracking-[0.2em] uppercase text-sm border-l-4 border-[#c95c0e] pl-4">Who We Are</span>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-[#0a2d4d] mt-4 leading-tight">
+                       AT SDC2
+                    </h2>
+                </div>
+
+                <p class="text-gray-600 text-lg leading-relaxed reveal-up">
                     From concept to completion, we bring cutting-edge engineering, smart design strategies, and sustainable practices together to deliver results that exceed expectations.
                 </p>
-                <p class="text-lg text-gray-100 mb-8 font-rale leading-relaxed font-medium" style="text-shadow: 0 1px 3px rgb(0 0 0 / 50%), 0 2px 6px rgb(0 0 0 / 30%);">
-                    Whether you're developing a new project, solving complex structural challenges, or optimizing costs without compromising quality, SDC2 is your trusted partner.
-                </p>
-                
-                <div class="flex flex-wrap gap-4">
-                    <a href="services.php" class="bg-[#c95c0e] text-white px-8 py-3 rounded-full font-poppi font-semibold text-base hover:bg-[#b04d0c] transition-all duration-300 shadow-lg">Explore our Services</a>
-                    <a href="projects.php" class="border-2 border-[#c95c0e] text-white px-8 py-3 rounded-full font-poppi font-semibold text-base hover:bg-[#c95c0e] transition-all duration-300">View Projects</a>
+
+                 <p class="text-gray-600 text-lg leading-relaxed reveal-up">
+                   Whether you're developing a new project, solving complex structural challenges, or optimizing costs without compromising quality, SDC2 is your trusted partner.
+
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 reveal-up">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-leaf text-green-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-[#0a2d4d]">Sustainability First</h4>
+                            <p class="text-sm text-gray-500">Eco-friendly materials and energy-efficient designs.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-microchip text-[#c95c0e] text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-[#0a2d4d]">Modern Tech</h4>
+                            <p class="text-sm text-gray-500">Utilizing the latest BIM and structural software.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4 reveal-up">
+                    <a href="about.php" class="inline-flex items-center gap-3 text-[#0a2d4d] font-bold group">
+                        Learn More About Our Journey
+                        <span class="w-10 h-10 bg-green-400 rounded-full flex items-center justify-center group-hover:bg-[#0a2d4d] group-hover:text-white transition-all">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
-            <div class="relative">
-                <div class="p-8">
-                    <img src="images/welcome.png" alt="Sustainable Architecture" class="rounded-xl w-full">
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
 
-<section class="py-16 md:py-24">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
-            <div class="relative">
-                <div class="bg-[#1a4d3e]/10 rounded-[48px] p-8">
-                    <img src="images/about_us.png" alt="Construction Team" class="rounded-3xl w-full">
-                </div>
-            </div>
-            <div class="about-content">
-                <span class="text-[#c95c0e] font-poppi font-semibold tracking-wider uppercase text-sm mb-4 block">Why Choose Us</span>
-                <h2 class="text-2xl md:text-3xl font-poppi mb-6 text-[#1a4d3e] font-bold">Intelligent design. Lasting value.</h2>
-                <p class="text-base text-gray-600 mb-8 font-rale leading-relaxed">
-                    From concept to completion, we bring cutting-edge engineering, smart design strategies, and sustainable practices together to deliver results that exceed expectations. Whether you're developing a new project, solving complex structural challenges, or optimizing costs without compromising quality, SDC2 is your trusted partner.
-                </p>
-                <div class="grid grid-cols-1 gap-4 mb-8">
-                    <div class="flex items-center gap-3">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e] text-xl"></i>
-                        <span class="text-gray-700 font-poppi">Innovative & practical design solutions</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e] text-xl"></i>
-                        <span class="text-gray-700 font-poppi">Cost-effective and efficient project delivery</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e] text-xl"></i>
-                        <span class="text-gray-700 font-poppi">Commitment to sustainability and durability</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e] text-xl"></i>
-                        <span class="text-gray-700 font-poppi">Reliable expertise you can trust</span>
-                    </div>
-                </div>
-                <a href="about.php" class="inline-block bg-[#1a4d3e] text-white px-8 py-3 rounded-full font-poppi font-semibold text-base hover:bg-[#c95c0e] transition-all duration-300">Get in Touch</a>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="py-16 md:py-24 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="text-[#c95c0e] font-poppi font-semibold tracking-wider uppercase text-sm mb-4 block">Our Services</span>
-            <h2 class="text-2xl md:text-3xl font-poppi text-[#1a4d3e] font-bold mb-4">Providing quality services</h2>
-            <p class="text-base text-gray-600 font-rale">Comprehensive construction solutions tailored to your needs.</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div class="w-16 h-16 bg-[#1a4d3e]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-ruler text-2xl text-[#1a4d3e]"></i>
-                </div>
-                <h3 class="text-xl font-poppi font-semibold mb-4 text-[#1a4d3e]">Architectural Design</h3>
-                <ul class="space-y-3 text-sm text-gray-600 font-rale">
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Conceptualization and design development
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Interior design and space planning
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        3D modeling and visualization
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Sustainable design solutions
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Construction documentation
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div class="w-16 h-16 bg-[#1a4d3e]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <i class="fa-regular fa-building text-2xl text-[#1a4d3e]"></i>
-                </div>
-                <h3 class="text-xl font-poppi font-semibold mb-4 text-[#1a4d3e]">Construction Management</h3>
-                <ul class="space-y-3 text-sm text-gray-600 font-rale">
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        General contracting
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Construction planning and scheduling
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Cost estimation and budgeting
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Quality control and assurance
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Project coordination and supervision
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div class="w-16 h-16 bg-[#1a4d3e]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <i class="fa-solid fa-wrench text-2xl text-[#1a4d3e]"></i>
-                </div>
-                <h3 class="text-xl font-poppi font-semibold mb-4 text-[#1a4d3e]">Renovation & Retrofitting</h3>
-                <ul class="space-y-3 text-sm text-gray-600 font-rale">
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Residential and commercial renovations
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Structural modifications
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Interior upgrades and finishes
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Adaptive reuse and restoration
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#c95c0e]"></i>
-                        Energy-efficient retrofitting
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="bg-[#1a4d3e] text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl md:text-4xl font-poppi font-bold mb-6">Your project deserves more than just construction</h2>
-        <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto font-rale">
-            It deserves intelligent design and lasting value. Start building with confidence. Start with SDC2.
-        </p>
-        <a href="contact.php" class="inline-block bg-[#c95c0e] text-white px-10 py-4 rounded-full font-poppi font-semibold text-base hover:bg-[#b04d0c] transition-colors shadow-lg">
-            Contact us now
-        </a>
-    </div>
-</section>
 
 <?php include 'footer.php'; ?>
