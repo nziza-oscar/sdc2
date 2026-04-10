@@ -1,13 +1,13 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'sdcc_cms');
-
 // define('DB_HOST', 'localhost');
-// define('DB_USER', 'uwsmilab_root');
-// define('DB_PASS', 'Y9%7pSCia=8#');
-// define('DB_NAME', 'uwsmilab_sdcc_cms');
+// define('DB_USER', 'root');
+// define('DB_PASS', '');
+// define('DB_NAME', 'sdcc_cms');
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'uwsmilab_root');
+define('DB_PASS', 'Y9%7pSCia=8#');
+define('DB_NAME', 'uwsmilab_sdcc_cms');
 
 function getDB() {
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
