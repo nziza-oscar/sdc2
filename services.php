@@ -24,7 +24,7 @@ include 'header.php';
         <div class="space-y-20">
             <div id="architectural" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div>
-                    <div class="w-20 h-20 bg-primary-light rounded-2xl flex items-center justify-center mb-6">
+                    <div class="w-20 h-20 bg-[#0a2d4d]-light rounded-2xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-ruler text-4xl text-primary"></i>
                     </div>
                     <h2 class="text-3xl mb-4 font-poppi">Architectural Design</h2>
@@ -70,7 +70,7 @@ include 'header.php';
                     </ul>
                 </div>
                 <div class="relative">
-                    <div class="bg-primary-light rounded-[48px] p-8">
+                    <div class="bg-[#0a2d4d]-light rounded-[48px] p-8">
                         <img src="images/house.png" alt="Architectural Design" class="rounded-3xl w-full">
                     </div>
                 </div>
@@ -213,12 +213,12 @@ include 'header.php';
 
             <div id="renovation" class="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
                 <div class="order-2 lg:order-1">
-                    <div class="bg-primary-light rounded-[48px] p-8">
+                    <div class="bg-[#0a2d4d]-light rounded-[48px] p-8">
                         <img src="images/hospital.png" alt="Renovation Services" class="rounded-3xl w-full">
                     </div>
                 </div>
                 <div class="order-1 lg:order-2">
-                    <div class="w-20 h-20 bg-primary-light rounded-2xl flex items-center justify-center mb-6">
+                    <div class="w-20 h-20 bg-[#0a2d4d]-light rounded-2xl flex items-center justify-center mb-6">
                         <i class="fa-solid fa-wrench text-4xl text-primary"></i>
                     </div>
                     <h2 class="text-3xl mb-4 font-poppi">Renovation & Retrofitting</h2>
@@ -278,28 +278,28 @@ include 'header.php';
 
             <div class="grid md:grid-cols-4 gap-12 md:gap-6">
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">1</div>
+                    <div class="w-16 h-16 bg-[#0a2d4d] text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">1</div>
                     <h3 class="font-semibold text-lg mb-2 font-poppi">Consultation</h3>
                     <p class="text-slate-800 font-rale font-semibold">We discuss your vision, needs, and budget.</p>
-                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-[#0a2d4d]/20"></div>
                 </div>
                 
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">2</div>
+                    <div class="w-16 h-16 bg-[#0a2d4d] text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">2</div>
                     <h3 class="font-semibold text-lg mb-2 font-poppi">Design</h3>
                     <p class="text-slate-800 font-rale font-semibold">Creating detailed plans and 3D visualizations.</p>
-                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-[#0a2d4d]/20"></div>
                 </div>
                 
                 <div class="text-center relative">
-                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">3</div>
+                    <div class="w-16 h-16 bg-[#0a2d4d] text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">3</div>
                     <h3 class="font-semibold text-lg mb-2 font-poppi">Planning</h3>
                     <p class="text-slate-800 font-rale font-semibold">Budgeting, scheduling, and permits.</p>
-                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-primary/20"></div>
+                    <div class="hidden md:block absolute top-8 left-[65%] w-[70%] h-0.5 bg-[#0a2d4d]/20"></div>
                 </div>
                 
                 <div class="text-center">
-                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">4</div>
+                    <div class="w-16 h-16 bg-[#0a2d4d] text-white rounded-full flex items-center justify-center text-2xl font-semibold mx-auto mb-4 font-poppi shadow-lg shadow-primary/20">4</div>
                     <h3 class="font-semibold text-lg mb-2 font-poppi">Construction</h3>
                     <p class="text-slate-800 font-rale font-semibold">Building with quality and precision.</p>
                 </div>
