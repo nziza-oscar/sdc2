@@ -86,34 +86,35 @@ include 'header.php';
                 <h2 class="text-4xl md:text-5xl font-extrabold text-white">What drives SDC2</h2>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10">
-                <div class="text-center group">
-                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 relative z-10 justify-between">
+                <div class=" group">
+                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full 
+                    flex items-center justify-center mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
                         <i class="fa-solid fa-leaf text-2xl"></i>
                     </div>
                     <h4 class="text-white font-bold text-xl mb-3">Sustainability</h4>
-                    <p class="text-white/50 text-sm leading-relaxed">Prioritizing eco-friendly design and materials</p>
+                    <p class="text-white/50 text-sm leading-relaxed text-left">Integrating environmentally conscious design principles with the selection of durable, resource-efficient materials to minimize ecological impact.</p>
                 </div>
-                <div class="text-center group">
-                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
+                <div class="group">
+                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
                         <i class="fa-regular fa-star text-2xl"></i>
                     </div>
                     <h4 class="text-white font-bold text-xl mb-3">Precision</h4>
-                    <p class="text-white/50 text-sm leading-relaxed">Accuracy in every blueprint and build</p>
+                    <p class="text-white/50 text-sm leading-relaxed text-left">Careful and accurate delivery in every stage of design and construction</p>
                 </div>
-                <div class="text-center group">
-                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
+                <div class=" group">
+                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
                         <i class="fa-regular fa-handshake text-2xl"></i>
                     </div>
                     <h4 class="text-white font-bold text-xl mb-3">Transparency</h4>
                     <p class="text-white/50 text-sm leading-relaxed">Clear communication and ethical management</p>
                 </div>
-                <div class="text-center group">
-                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
+                <div class="group">
+                    <div class="w-20 h-20 bg-white/5 text-emerald-400 rounded-full flex items-center justify-center  mb-6 transition-all group-hover:bg-emerald-400 group-hover:text-[#0a2d4d]">
                         <i class="fa-regular fa-lightbulb text-2xl"></i>
                     </div>
                     <h4 class="text-white font-bold text-xl mb-3">Innovation</h4>
-                    <p class="text-white/50 text-sm leading-relaxed">Utilizing advanced tech for better spaces</p>
+                    <p class="text-white/50 text-sm leading-relaxed text-left">Leveraging cutting-edge technologies to enhance the quality, functionality, and experience of living environments.</p>
                 </div>
             </div>
         </div>
@@ -129,15 +130,24 @@ include 'header.php';
             <p class="text-slate-500 mt-6 text-lg">A dedicated team of professionals focused on excellence</p>
         </div>
 
-        <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-12">
+        <div class="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
             <!-- Member 1: CEO & Founder -->
             <div class="text-center group">
                 <div class="relative w-48 h-48 mx-auto mb-8">
                     <div class="absolute inset-0 bg-[#c95c0e] rounded-2xl -rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/mwizerwa-ceo-founder.jpeg" alt="CEO & Founder" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Member Name</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Dr. Fabrice Mwizerwa</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">CEO & Founder</p>
+            </div>
+
+            <div class="text-center group">
+                <div class="relative w-48 h-48 mx-auto mb-8">
+                    <div class="absolute inset-0 bg-[#c95c0e] rounded-2xl -rotate-6 transition-transform group-hover:rotate-0"></div>
+                    <img src="images/team/eng-singh.jpeg" alt="CEO & Founder" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+                </div>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng. Dr. SAURABH SINGH</h3>
+                <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Chief Technical Officer</p>
             </div>
 
             <!-- Member 2: Chief Operating Officer -->
@@ -146,7 +156,7 @@ include 'header.php';
                     <div class="absolute inset-0 bg-emerald-400 rounded-2xl rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/Chief-Operating-Officer.jpeg" alt="Chief Operating Officer" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Member Name</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Dr. Victor Mokaya Mageto</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Chief Operating Officer</p>
             </div>
 
