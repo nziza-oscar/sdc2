@@ -27,6 +27,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <?php if (canEdit()): ?>
         <!-- Content Management Section -->
         <div class="mt-4 mb-1 px-6 text-xs text-gray-400 uppercase tracking-wider font-semibold">Content</div>
+         <a href="create-welcome.php" 
+           class="flex items-center py-3 px-6 hover:bg-[#c95c0e] transition-colors <?php echo ($current_page == 'welcome.php') ? 'bg-[#c95c0e]' : ''; ?>">
+            <i class="fa-solid fa-address-book mr-3 w-5"></i> Welcome Info
+        </a>
         
         <a href="contact.php" 
            class="flex items-center py-3 px-6 hover:bg-[#c95c0e] transition-colors <?php echo ($current_page == 'contact.php') ? 'bg-[#c95c0e]' : ''; ?>">
