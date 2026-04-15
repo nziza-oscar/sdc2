@@ -137,7 +137,8 @@ include 'header.php';
                     <i class="fa-solid fa-medal text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-poppi font-bold text-neutral-900 mb-3">Excellence</h3>
-                <p class="text-neutral-500 font-rale text-sm leading-relaxed">Never compromising on quality, ensuring the best standards in East Africa.</p>
+                <p class="text-neutral-500 font-rale text-sm leading-relaxed">
+                Consistently delivering outstanding quality, precision, and value without compromise.</p>
             </div>
 
             <!-- Value Card 3 -->
