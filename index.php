@@ -157,8 +157,6 @@
     </div>
 </section>
 
-
-
 <section class="py-24 bg-gray-50">
     <div class="max-w-7xl mx-auto px-6 md:px-8">
         <div class="mb-16">
@@ -171,7 +169,7 @@
                 <div class="w-16 h-16 bg-emerald-50 flex items-center justify-center mb-8 group-hover:bg-emerald-500 transition-colors">
                     <i class="fa-solid fa-compass-drafting text-emerald-600 text-3xl group-hover:text-white"></i>
                 </div>
-                <h3 class="text-2xl font-bold text-[#0a2d4d] mb-4">Architectural Design</h3>
+                <h3 class="text-2xl font-bold text-[#0a2d4d] mb-4">Architectural and Structural Design.</h3>
                 <p class="text-gray-600 leading-relaxed mb-6 font-rale">
                     Innovative blueprints and spatial planning that balance aesthetic vision with functional requirements and environmental context.
                 </p>
@@ -193,6 +191,19 @@
                 </a>
             </div>
 
+            <div class="bg-white p-10 shadow-sm border-b-4 border-red-500 hover:shadow-xl transition-all group">
+                <div class="w-16 h-16 bg-red-50 flex items-center justify-center mb-8 group-hover:bg-red-500 transition-colors">
+                    <i class="fa-solid fa-file-shield text-red-600 text-3xl group-hover:text-white"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-[#0a2d4d] mb-4">Construction permits and all associated services</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 font-rale">
+                    Navigating regulatory frameworks to secure construction permits, environmental clearances, and occupational certificates efficiently.
+                </p>
+                <a href="services.php#permits" class="text-[#c95c0e] font-bold flex items-center gap-2 group-hover:gap-4 transition-all">
+                    Explore Service <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+
             <div class="bg-white p-10 shadow-sm border-b-4 border-teal-500 hover:shadow-xl transition-all group">
                 <div class="w-16 h-16 bg-teal-50 flex items-center justify-center mb-8 group-hover:bg-teal-500 transition-colors">
                     <i class="fa-solid fa-handshake-angle text-teal-600 text-3xl group-hover:text-white"></i>
@@ -201,7 +212,7 @@
                 <p class="text-gray-600 leading-relaxed mb-6 font-rale">
                     Strategic consultancy for complex structural challenges, land use planning, and navigating regional development regulations.
                 </p>
-                <a href="services.php" class="text-[#c95c0e] font-bold flex items-center gap-2 group-hover:gap-4 transition-all">
+                <a href="services.php#project" class="text-[#c95c0e] font-bold flex items-center gap-2 group-hover:gap-4 transition-all">
                     Explore Service <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
             </div>
@@ -214,7 +225,7 @@
                 <p class="text-gray-600 leading-relaxed mb-6 font-rale">
                     Detailed quantity surveying and budgeting to ensure financial feasibility and prevent resource waste throughout the project.
                 </p>
-                <a href="services.php" class="text-[#c95c0e] font-bold flex items-center gap-2 group-hover:gap-4 transition-all">
+                <a href="services.php#project" class="text-[#c95c0e] font-bold flex items-center gap-2 group-hover:gap-4 transition-all">
                     Explore Service <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
             </div>
@@ -234,8 +245,6 @@
         </div>
     </div>
 </section>
-
-
 
 <!-- <section class="py-24 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 md:px-8">
@@ -315,7 +324,7 @@
 
                 <div class="flex items-center gap-6 pt-4 reveal-up">
                     <div class="flex -space-x-3">
-                        <div class="w-12 h-12 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
+                        <div class="w-24 h-24 rounded-full border-4 border-white bg-gray-200 overflow-hidden shadow-sm">
                             <img src="images/team/mwizerwa-ceo-founder.jpeg" alt="Lead Engineer" class="w-full h-full object-cover">
                         </div>
                         <!-- <div class="w-12 h-12 rounded-full border-4 border-white bg-gray-300 overflow-hidden shadow-sm">
@@ -324,8 +333,8 @@
                         
                     </div>
                     <div>
-                        <p class="text-sm text-gray-500 uppercase tracking-widest font-bold">Licensed Professionals</p>
-                        <p class="text-[#0a2d4d] font-bold">IESR Reg: No. 000/CE/IER/2026</p>
+                        <p class="text-sm text-gray-500 uppercase tracking-widest font-bold">LICENSED AND CERTIFIED PROFESSIONAL ENGINEER</p>
+                        <p class="text-[#0a2d4d] font-bold font-rale">Reg:A142/EC/IER/2022</p>
                     </div>
                 </div>
             </div>
@@ -341,7 +350,7 @@
                      style="clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);">
                     <p class="text-3xl font-extrabold mb-1">IER Certified</p>
                     <p class="text-emerald-400 font-bold text-xs uppercase tracking-widest">
-                        Official Registration: #IER/0000/2026
+                        Official Registration: <span class="font-rale">A142/EC/IER/2022</span>
                     </p>
                 </div>
 
