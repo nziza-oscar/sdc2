@@ -45,7 +45,7 @@
                 <h4 class="text-sm font-poppi font-bold uppercase tracking-widest text-white mb-8 border-l-4 border-emerald-500 pl-4">Services</h4>
                 <ul class="space-y-4 text-[14px] font-rale">
                     <li><a href="services.php#architectural" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Architectural Design</a></li>
-                    <li><a href="services.php#construction" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Construction Mgmt</a></li>
+                    <li><a href="services.php#construction" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Construction Management</a></li>
                     <li><a href="services.php#renovation" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Renovation</a></li>
                     <li><a href="services.php#urban" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Urban Planning</a></li>
                 </ul>
