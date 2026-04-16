@@ -58,6 +58,8 @@ $nav_links = [
     
     <link rel="canonical" href="https://sdc2consultancy.com/<?php echo $current_page; ?>">
     <meta name="theme-color" content="#1a4d3e">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
@@ -119,7 +121,7 @@ $nav_links = [
         <nav class="bg-[#0a2d4d] text-white py-2">
             <div class="flex items-center justify-between px-6 md:px-8 mx-auto max-w-7xl">
                 <a href="index.php" class="inline-block transition-transform hover:scale-105">
-                    <img src="images/logo2.png" alt="SDC2 consultancy" class="block h-12 md:h-20 w-auto"/>
+                    <img src="images/logo2.png" alt="SDC2 consultancy" class="block h-12 md:h-16 w-auto"/>
                 </a>
 
                 <div class="hidden lg:flex items-center space-x-8 text-sm font-medium">
