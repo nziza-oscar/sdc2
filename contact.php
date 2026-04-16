@@ -91,7 +91,7 @@ include 'header.php';
                 <div>
                     <h2 class="text-4xl font-poppi font-bold text-neutral-900 mb-6">Visit our HQ</h2>
                     <p class="text-lg text-neutral-600 font-rale leading-relaxed">
-                        We are headquartered in Kigali, Rwanda. Drop by for a coffee and let's discuss how we can bring your architectural dreams to life.
+                        We are headquartered in Kigali, Rwanda. Drop by for a coffee and let’s discuss how we can bring your design vision to life.
                     </p>
                 </div>
 
