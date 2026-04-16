@@ -64,7 +64,9 @@ include 'header.php';
                             At <span class="font-bold text-neutral-900">Sustainable Design and Construction Consultancy (SDC2)</span>, our mission is rooted in the belief that exceptional design and responsible construction can coexist harmoniously.
                         </p>
                         <p>
-                            We are committed to pushing the boundaries of sustainable architecture in Rwanda and across East Africa. Every project we undertake is an opportunity to demonstrate that beautiful, functional spaces can be created with minimal environmental impact.
+                            We are committed to pushing the boundaries of sustainable architecture in Rwanda and beyond. 
+                            Every project we undertake is an opportunity to demonstrate that beautiful, 
+                            functional spaces can be created with minimal environmental impact.
                         </p>
                     </div>
                 </div>
@@ -128,7 +130,7 @@ include 'header.php';
                     <i class="fa-solid fa-leaf text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-poppi font-bold text-neutral-900 mb-3">Sustainability</h3>
-                <p class="text-neutral-500 font-rale text-sm leading-relaxed">Environmental responsibility in every decision we make for the planet.</p>
+                <p class="text-neutral-500 font-rale text-sm leading-relaxed">Environmental responsibility in every decision we make.</p>
             </div>
 
             <!-- Value Card 2 -->
