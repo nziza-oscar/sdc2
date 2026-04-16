@@ -58,9 +58,20 @@ include 'header.php';
                 </div>
                 <h3 class="text-3xl font-extrabold text-[#0a2d4d] mb-8">Our Mission</h3>
                 <div class="text-slate-600 space-y-6 text-lg leading-relaxed font-medium">
-                    <p>At Sustainable Design and Construction Consultancy (SDC2), our mission is to deliver exceptional, forward-thinking design and construction solutions that embody sophistication, precision, and enduring value.</p>
-                    <p>We are committed to excellence at every level blending advanced engineering expertise, refined architectural insight, and sustainable innovation to craft projects that are not only visually striking but intelligently built.</p>
-                    <p>At SDC2, sustainability is not an option it is a standard of excellence. We integrate environmentally responsible strategies seamlessly into our work, enhancing both the prestige and performance of every project.</p>
+                  <p>
+                    At Sustainable Design and Construction Consultancy (SDC2), our mission is to deliver exceptional, forward-thinking design and construction solutions that embody sophistication, precision, and enduring value. We partner with discerning clients to create iconic spaces where elegance meets performance, and vision is translated into timeless reality.
+                  </p>
+
+                  <p>
+                    We are committed to excellence at every level blending advanced engineering expertise, refined architectural insight, and sustainable innovation to craft projects that are not only visually striking but intelligently built. Every detail is meticulously considered to ensure superior quality, efficiency, and long-term resilience.
+                  </p>
+
+                  <p>
+                    At SDC2, sustainability is not an option it is a standard of excellence. We integrate environmentally responsible strategies seamlessly into our work, enhancing both the prestige and performance of every project.
+                  </p>
+                  <p>
+                    Our purpose is to elevate the built environment through bespoke solutions that reflect our clients’ ambitions, delivering results that inspire confidence, distinction, and lasting impact.
+                  </p>
                 </div>
             </div>
 
@@ -122,7 +133,8 @@ include 'header.php';
 </section>
 
 
-<section class="py-32 bg-slate-50">
+<section class="py-32 bg-slate-50" id="leadership">
+     
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-24">
             <span class="text-[#c95c0e] font-extrabold uppercase tracking-widest text-sm block mb-4">Leadership</span>
@@ -166,7 +178,7 @@ include 'header.php';
                     <div class="absolute inset-0 bg-[#c95c0e] rounded-2xl -rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/Design-Director.jpeg" alt="Design Director" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Member Name</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng. Landry Cyubahiro</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Design Director</p>
             </div>
 
@@ -176,7 +188,7 @@ include 'header.php';
                     <div class="absolute inset-0 bg-emerald-400 rounded-2xl rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/Project-Management-Director.jpeg" alt="Project Management Director" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Member Name</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng. Ernest Niyigena</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Project Management Director</p>
             </div>
 
@@ -186,7 +198,7 @@ include 'header.php';
                     <div class="absolute inset-0 bg-[#c95c0e] rounded-2xl -rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/Chief-Finance-Manager.jpeg" alt="Chief Finance Manager" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Member Name</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Mr. Bruce Ishimwe</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Chief Finance Manager</p>
             </div>
         </div>
