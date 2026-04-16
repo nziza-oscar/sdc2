@@ -17,12 +17,12 @@
                     <img src="images/logo2.png" alt="SDC2 Logo" class="w-52 object-contain">
                     <h3 class="text-lg font-poppi font-bold tracking-tight text-white leading-tight">
                         SUSTAINABLE DESIGN<br>
-                        <span class="text-xs font-medium text-emerald-500 uppercase tracking-[0.2em]">& CONSTRUCTION CONSULTANCY</span>
+                        <span class=" font-medium text-emerald-500 uppercase tracking-[0.2em]">CONSTRUCTION CONSULTANCY</span>
                     </h3>
                 </div>
 
                 <p class="text-[14px] text-gray-400 leading-relaxed font-rale">
-                    Transforming ideas into architectural masterpieces. We prioritize sustainability and efficiency to create lasting, functional spaces across East Africa.
+                    REDEFINING THE MAKING.
                 </p>
 
                 <div class="flex space-x-4">
@@ -46,8 +46,9 @@
                 <ul class="space-y-4 text-[14px] font-rale">
                     <li><a href="services.php#architectural" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Architectural Design</a></li>
                     <li><a href="services.php#construction" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Construction Management</a></li>
-                    <li><a href="services.php#renovation" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Renovation</a></li>
-                    <li><a href="services.php#urban" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Urban Planning</a></li>
+                    <li><a href="services.php#permits" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Construction Permits and All Associated Services</a></li>
+                    <li><a href="services.php#project" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Project Advisory</a></li>
+                    <li><a href="services.php#renovation" class="hover:text-emerald-400 flex items-center gap-2 transition-colors"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500/30"></span> Renovation & Retrofitting</a></li>
                 </ul>
             </div>
             
@@ -89,13 +90,11 @@
             <p class="text-gray-500 text-xs font-rale tracking-wide">
                 © 2026 Sustainable Design & Construction Consultancy.
             </p>
-            <!-- <div class="flex space-x-8">
-                <a href="privacy.php" class="text-xs text-gray-500 hover:text-emerald-400 transition-colors uppercase tracking-widest">Privacy</a>
-                <a href="terms.php" class="text-xs text-gray-500 hover:text-emerald-400 transition-colors uppercase tracking-widest">Terms</a>
-            </div> -->
         </div>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="app.js"></script>
