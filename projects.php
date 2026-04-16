@@ -16,6 +16,7 @@ include 'header.php';
     </div>
 </section>
 
+<?php include 'project-slides.php'; ?>
 <section class="py-24 bg-white">
     <div class="max-w-7xl mx-auto px-6">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="gallery-grid">
