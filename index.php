@@ -11,6 +11,7 @@
                 <span class="inline-block px-4 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-poppi uppercase tracking-widest mb-4 border border-emerald-500/20">
                     Welcome to SDC2
                 </span>
+                
                 <h2 class="reveal-up text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight ">
                     Sustainable Design and <br/> <span class="text-emerald-400 whitespace-nowrap">Construction Consultancy</span>
                 </h2>
@@ -361,5 +362,42 @@
         </div>
     </div>
 </section>
+
+
+
+<section class="py-10 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Title & Description -->
+        <div class="text-center mb-6">
+            <h2 class="text-xl font-semibold text-gray-800">Featured Projects</h2>
+            <p class="text-gray-500 text-sm">Explore our portfolio</p>
+            <div class="w-12 h-0.5 bg-emerald-500 mx-auto mt-2 rounded-full"></div>
+        </div>
+        
+        <!-- Project Slideshow -->
+        <?php include 'project-slides.php'; ?>
+        
+        <!-- View All Link -->
+        <div class="text-center mt-8">
+            <a href="projects.php" class="inline-flex items-center gap-2 text-[#0a2d4d] hover:text-[#c95c0e] transition-colors duration-300 font-medium group">
+                View All Projects
+                <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform duration-300"></i>
+            </a>
+        </div>
+        
+    </div>
+</section>
+
+
+<section>
+    <div class="text-center py-6">
+        <h2 class="text-xl font-semibold text-gray-800">Our Team</h2>
+        <p class="text-gray-500 text-sm">Meet the experts behind SDC2</p>
+        <div class="w-12 h-0.5 bg-emerald-500 mx-auto mt-2 rounded-full"></div>
+    </div>
+    <?php include 'team-slides.php'; ?>
+</section>
+
 
 <?php include 'footer.php'; ?>
