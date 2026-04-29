@@ -335,7 +335,7 @@
                     </div>
                     <div>
                         <p class="text-sm text-gray-500 uppercase tracking-widest font-bold">LICENSED AND CERTIFIED PROFESSIONAL ENGINEER</p>
-                        <p class="text-[#0a2d4d] font-bold font-rale">Reg:A142/EC/IER/2022</p>
+                        <p class="text-[#0a2d4d] font-bold font-rale">Reg: A1642/EC/IER/2022</p>
                     </div>
                 </div>
             </div>
@@ -351,7 +351,7 @@
                      style="clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);">
                     <p class="text-3xl font-extrabold mb-1">IER Certified</p>
                     <p class="text-emerald-400 font-bold text-xs uppercase tracking-widest">
-                        Official Registration: <span class="font-rale">A142/EC/IER/2022</span>
+                        Official Registration: <span class="font-rale">A1642/EC/IER/2022</span>
                     </p>
                 </div>
 
