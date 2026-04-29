@@ -178,7 +178,7 @@ include 'header.php';
                     <div class="absolute inset-0 bg-[#c95c0e] rounded-2xl -rotate-6 transition-transform group-hover:rotate-0"></div>
                     <img src="images/team/Design-Director.jpeg" alt="Design Director" class="absolute inset-0 w-full h-full object-cover rounded-2xl">
                 </div>
-                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng. Landry Cyubahiro</h3>
+                <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng Landry Cyubahiro, PMP</h3>
                 <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-[10px] mt-2">Design Director</p>
             </div>
 
