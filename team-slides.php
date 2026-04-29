@@ -48,9 +48,9 @@
                     <div class="swiper-slide">
                         <div class="text-center group bg-white rounded-2xl p-2  transition-all duration-300 border border-slate-100">
                             <div class="relative w-48 h-48 mx-auto py-2">
-                                <img src="images/team/Design-Director.jpeg" alt="Eng. Landry Cyubahiro" class="w-full h-full object-cover rounded-2xl  border-4 border-white">
+                                <img src="images/team/Design-Director.jpeg" alt="Eng Landry Cyubahiro, PMP" class="w-full h-full object-cover rounded-2xl  border-4 border-white">
                             </div>
-                            <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng. Landry Cyubahiro</h3>
+                            <h3 class="text-xl font-extrabold text-[#0a2d4d]">Eng Landry Cyubahiro, PMP</h3>
                             <p class="text-[#c95c0e] font-bold uppercase tracking-widest text-xs mt-2">Design Director</p>
                             <div class="py-2 border-t border-gray-100">
                                 <p class="text-slate-400 text-sm">Creative vision and architectural excellence</p>
