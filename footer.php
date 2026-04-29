@@ -80,7 +80,7 @@
                         <div class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center shrink-0 group-hover:bg-[#c95c0e] transition-colors">
                             <i class="fa-solid fa-phone text-emerald-400 group-hover:text-white"></i>
                         </div>
-                        <span class="text-gray-400 pt-2">+250 788 282 953</span>
+                        <span class="text-gray-400 pt-2">+250 788 231 758</span>
                     </li>
                 </ul>
             </div>
@@ -88,7 +88,7 @@
         
         <div class="border-t border-white/5 mt-20 pt-10 flex flex-col md:row justify-between items-center gap-6">
             <p class="text-gray-500 text-xs font-rale tracking-wide">
-                © 2026 Sustainable Design & Construction Consultancy.
+                © <?php echo date('Y'); ?> Sustainable Design & Construction Consultancy.
             </p>
         </div>
     </div>
@@ -120,6 +120,29 @@
     scrollToTopBtn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // Disable right-click on all images
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+        return false;
+    });
+    
+    // Disable dragging
+    img.addEventListener('dragstart', (e) => {
+        e.preventDefault();
+        return false;
+    });
+});
+
+// Also disable keyboard shortcuts (Print Screen, etc.)
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'PrintScreen' || 
+        (e.ctrlKey && (e.key === 's' || e.key === 'S'))) {
+        e.preventDefault();
+        return false;
+    }
+});
 </script>
 
 </body>
