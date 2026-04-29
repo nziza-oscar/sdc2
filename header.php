@@ -97,7 +97,7 @@ $nav_links = [
                     <div class="flex flex-wrap items-center gap-4 md:gap-6">
                         <div class="flex items-center gap-2">
                             <i class="fa-solid fa-phone text-orange-200"></i>
-                            <span class="font-medium">(+250) 788 282 953</span>
+                            <span class="font-medium">(+250)788 231 758</span>
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fa-solid fa-envelope text-orange-200"></i>
